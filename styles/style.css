@@ -58,28 +58,25 @@
 }
 
 .tabelaMenuServ{
-    width: 90%;
+    width: 100%;
     display: inline-table;
     margin: 0;
-    
 }
+
 .tabelaMenuServ div{
     text-align: center;
     display: table-cell;
 }
 
-
 #img1{
-    width: 65%;
+    width: 85%;
 }
 #img2{
-    width: 80%;
+    width: 90%;
 }
 #img3{
-    width: 115%;
+    width:  90%;
 }
 #img10{
     width: 50%;
 }
-
-
