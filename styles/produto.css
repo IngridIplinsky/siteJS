@@ -1,0 +1,94 @@
+
+.TituloPro{
+    margin: auto;
+    padding: 1%;
+    width: 80%;
+}
+
+.divMeio{
+    width: 63%;
+    border-style: outset;
+    border-radius: 2%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    background-color: rgb(233, 234, 235);
+    align-items: center;
+
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(0, 149, 175);
+    width: 100%;
+}
+    
+
+.carousel {
+    overflow: hidden;
+    width: 95%;
+    ;
+    margin: auto;
+  }
+  
+  .carousel .carousel__item,
+  .carousel .carousel__item--hidden {
+    display: none;
+  }
+  
+  .carousel .carousel__item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .carousel .carousel__item1--visible,
+    .carousel .carousel__item2--visible,
+    .carousel .carousel__item3--visible
+    {
+    display: block;
+    animation: fadeVisibility 0.5s;
+  }
+  
+  .carousel .carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel .carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    color: #FFF;
+    background-color: #242424;
+  }
+  
+  .carousel .carousel__actions button[data-js="carousel__button1--prev"], 
+    .carousel .carousel__actions button[data-js="carousel__button2--prev"],
+    .carousel  .carousel__actions button[data-js="carousel__button3--prev"]{
+    margin-left: 5%;
+  }
+  
+  .carousel .carousel__actions button[data-js="carousel__button1--next"],
+    .carousel .carousel__actions button[data-js="carousel__button2--next"],
+     .carousel .carousel__actions button[data-js="carousel__button3--next"] {
+    margin-right: 5%;
+  }
+  
+  @keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
