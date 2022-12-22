@@ -9,6 +9,14 @@
     font-family: 'Bitter', serif;
 }
 
+.rodape h2{
+    color: rgb(6, 170, 199);
+    font-size: 2rem;
+    font-weight: 200;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+}
+
 .rodapeBloco1{
     width: 40%;
     padding-left: 4%;
