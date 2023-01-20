@@ -65,11 +65,13 @@ function checkInputs(){
 
     
     if(formValido == true){
-        sessao = document.getElementById("sessaoForm");
-        sessao.style.display = "none";
-
-        const caixa = document.getElementById("caixa");
-        caixa.style.display = "block";
+        //janela = document.getElementById("modalExemplo");
+        //botao.dataTarget = "#modalExemplo";
+        //janela => modal({
+        //    show: true
+        //  });
+        //const caixa = document.getElementById("caixa");
+        //caixa.style.display = "block";
         document.getElementById("cNome").innerHTML = document.getElementById("nome").value;
         document.getElementById("cTel").innerHTML = document.getElementById("tele").value;
         document.getElementById("cEmail").innerHTML = document.getElementById("mail").value;
@@ -92,9 +94,15 @@ function checkInputs(){
         else{ 
             document.getElementById("cMot").innerHTML = verificaRadio4.value;
         }
+        abreModal();
     }
 
 }
+function abreModal() {
+    $("#modalExemplo").modal({
+         show: true
+       });
+    }
 
 function voltar(){
     sessao = document.getElementById("sessaoForm");
