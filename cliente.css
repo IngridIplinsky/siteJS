@@ -4,25 +4,25 @@
 }
 
 #car1{
-    background-image: url(/imagens/Cópia\ de\ 1.jpg);
+    background-image: url(./imagens/Cópia\ de\ 1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #car2{
-    background-image: url(/imagens/madrecor.png);
+    background-image: url(./imagens/madrecor.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #car3{
-    background-image: url(/imagens/2.png);
+    background-image: url(./imagens/2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #car4{
-    background-image: url(/imagens/inst\ sl.png);
+    background-image: url(./imagens/inst\ sl.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
